@@ -190,3 +190,57 @@ button{
     width: 90%;
     
 }
+.burger{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .line{
+        display: none;
+    }
+    .list li{
+        display: none;
+    }
+    .content{
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: right;
+        justify-content: center;
+    }
+    .socials{
+        margin-left: 100px;
+    }
+
+    body{
+        color: black;
+        background: none;
+        /* background-image: none; */
+        /* height: 100vh; */
+        margin-left: 0vw;
+        background-size: 100vh;
+        background-position: contain;
+        
+    }
+    .hero-part-2{
+        flex-direction: column;
+        /* margin-left: -40vw; */
+    }
+    .logo{
+        position: relative;
+        /* left: -10%; */
+        margin-left: -200px;
+        z-index: 10;
+
+        }
+        nav{
+            background-color: aliceblue;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            /* gap: 10px; */
+        }
+        .burger{
+            display: block;
+        }
+}
